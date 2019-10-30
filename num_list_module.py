@@ -1,8 +1,10 @@
 
 import num_list_module
-my_list= [1,2,3,4,5]
+
 def backwardslist(array):
-    newarray= array.reverse()
+    for word in range(len(array) - 1, -1, -1):
+        print (array[word], end="")
+    return
 
 
 #def min(array):
